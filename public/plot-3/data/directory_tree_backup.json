@@ -1,0 +1,808 @@
+{
+  "name": "d3",
+  "children": [
+      {
+          "name": "API.md"
+      },
+      {
+          "name": "prebuild.sh"
+      },
+      {
+          "name": "LICENSE"
+      },
+      {
+          "name": "test",
+          "children": [
+              {
+                  "name": "d3-test.js"
+              },
+              {
+                  "name": "docs-test.js"
+              },
+              {
+                  "name": ".eslintrc.json"
+              }
+          ]
+      },
+      {
+          "name": "bundle.js"
+      },
+      {
+          "name": "docs",
+          "children": [
+              {
+                  "name": "d3-contour",
+                  "children": [
+                      {
+                          "name": "density.md"
+                      },
+                      {
+                          "name": "contour.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-shape",
+                  "children": [
+                      {
+                          "name": "stack.md"
+                      },
+                      {
+                          "name": "curve.md"
+                      },
+                      {
+                          "name": "radial-link.md"
+                      },
+                      {
+                          "name": "area.md"
+                      },
+                      {
+                          "name": "radial-line.md"
+                      },
+                      {
+                          "name": "arc.md"
+                      },
+                      {
+                          "name": "link.md"
+                      },
+                      {
+                          "name": "symbol.md"
+                      },
+                      {
+                          "name": "radial-area.md"
+                      },
+                      {
+                          "name": "pie.md"
+                      },
+                      {
+                          "name": "line.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-dispatch.md"
+              },
+              {
+                  "name": "d3-shape.md"
+              },
+              {
+                  "name": "d3-path.md"
+              },
+              {
+                  "name": "d3-geo.md"
+              },
+              {
+                  "name": "d3-selection.md"
+              },
+              {
+                  "name": "api.md"
+              },
+              {
+                  "name": "d3-array",
+                  "children": [
+                      {
+                          "name": "transform.md"
+                      },
+                      {
+                          "name": "group.md"
+                      },
+                      {
+                          "name": "blur.md"
+                      },
+                      {
+                          "name": "sets.md"
+                      },
+                      {
+                          "name": "add.md"
+                      },
+                      {
+                          "name": "bisect.md"
+                      },
+                      {
+                          "name": "intern.md"
+                      },
+                      {
+                          "name": "bin.md"
+                      },
+                      {
+                          "name": "summarize.md"
+                      },
+                      {
+                          "name": "ticks.md"
+                      },
+                      {
+                          "name": "sort.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-brush.md"
+              },
+              {
+                  "name": "d3-delaunay.md"
+              },
+              {
+                  "name": "d3-time-format.md"
+              },
+              {
+                  "name": ".vitepress",
+                  "children": [
+                      {
+                          "name": "theme",
+                          "children": [
+                              {
+                                  "name": "ObservablePromo.vue"
+                              },
+                              {
+                                  "name": "custom.css"
+                              },
+                              {
+                                  "name": "CustomFooter.vue"
+                              },
+                              {
+                                  "name": "CustomLayout.vue"
+                              },
+                              {
+                                  "name": "index.ts"
+                              },
+                              {
+                                  "name": "gallery.data.js"
+                              },
+                              {
+                                  "name": "ExamplesGrid.vue"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "config.ts"
+                      }
+                  ]
+              },
+              {
+                  "name": "community.md"
+              },
+              {
+                  "name": "d3-quadtree.md"
+              },
+              {
+                  "name": "d3-scale",
+                  "children": [
+                      {
+                          "name": "sequential.md"
+                      },
+                      {
+                          "name": "point.md"
+                      },
+                      {
+                          "name": "threshold.md"
+                      },
+                      {
+                          "name": "symlog.md"
+                      },
+                      {
+                          "name": "ordinal.md"
+                      },
+                      {
+                          "name": "quantize.md"
+                      },
+                      {
+                          "name": "log.md"
+                      },
+                      {
+                          "name": "quantile.md"
+                      },
+                      {
+                          "name": "time.md"
+                      },
+                      {
+                          "name": "band.md"
+                      },
+                      {
+                          "name": "pow.md"
+                      },
+                      {
+                          "name": "diverging.md"
+                      },
+                      {
+                          "name": "linear.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-scale-chromatic",
+                  "children": [
+                      {
+                          "name": "sequential.md"
+                      },
+                      {
+                          "name": "categorical.md"
+                      },
+                      {
+                          "name": "diverging.md"
+                      },
+                      {
+                          "name": "cyclical.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-polygon.md"
+              },
+              {
+                  "name": "d3-scale.md"
+              },
+              {
+                  "name": "d3-geo",
+                  "children": [
+                      {
+                          "name": "cylindrical.md"
+                      },
+                      {
+                          "name": "shape.md"
+                      },
+                      {
+                          "name": "path.md"
+                      },
+                      {
+                          "name": "azimuthal.md"
+                      },
+                      {
+                          "name": "math.md"
+                      },
+                      {
+                          "name": "projection.md"
+                      },
+                      {
+                          "name": "conic.md"
+                      },
+                      {
+                          "name": "stream.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-interpolate",
+                  "children": [
+                      {
+                          "name": "transform.md"
+                      },
+                      {
+                          "name": "value.md"
+                      },
+                      {
+                          "name": "color.md"
+                      },
+                      {
+                          "name": "zoom.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-ease.md"
+              },
+              {
+                  "name": "d3-selection",
+                  "children": [
+                      {
+                          "name": "locals.md"
+                      },
+                      {
+                          "name": "namespaces.md"
+                      },
+                      {
+                          "name": "joining.md"
+                      },
+                      {
+                          "name": "modifying.md"
+                      },
+                      {
+                          "name": "control-flow.md"
+                      },
+                      {
+                          "name": "selecting.md"
+                      },
+                      {
+                          "name": "events.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-format.md"
+              },
+              {
+                  "name": "d3-array.md"
+              },
+              {
+                  "name": "d3-random.md"
+              },
+              {
+                  "name": "d3-chord.md"
+              },
+              {
+                  "name": "getting-started.md"
+              },
+              {
+                  "name": "d3-drag.md"
+              },
+              {
+                  "name": "d3-color.md"
+              },
+              {
+                  "name": "components",
+                  "children": [
+                      {
+                          "name": "UsMap.vue"
+                      },
+                      {
+                          "name": "PlotRender.js"
+                      },
+                      {
+                          "name": "quadtreeVisitParent.js"
+                      },
+                      {
+                          "name": "LogoDiagram.vue"
+                      },
+                      {
+                          "name": "ExampleCurve.vue"
+                      },
+                      {
+                          "name": "deferRender.js"
+                      },
+                      {
+                          "name": "quadtreeNodes.js"
+                      },
+                      {
+                          "name": "ExampleDisjointForce.vue"
+                      },
+                      {
+                          "name": "ExampleAxis.vue"
+                      },
+                      {
+                          "name": "ExampleChord.vue"
+                      },
+                      {
+                          "name": "ColorSwatches.vue"
+                      },
+                      {
+                          "name": "ColorRamp.vue"
+                      },
+                      {
+                          "name": "quadtreeFindVisited.js"
+                      },
+                      {
+                          "name": "ExampleAnimatedQuadtree.vue"
+                      },
+                      {
+                          "name": "WorldMap.vue"
+                      },
+                      {
+                          "name": "ColorSpan.vue"
+                      },
+                      {
+                          "name": "ExampleLinkForce.vue"
+                      },
+                      {
+                          "name": "ExampleEase.vue"
+                      },
+                      {
+                          "name": "ExampleCollideForce.vue"
+                      },
+                      {
+                          "name": "ExampleBlankChart.vue"
+                      },
+                      {
+                          "name": "ExampleArcs.vue"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-scale-chromatic.md"
+              },
+              {
+                  "name": "d3-force.md"
+              },
+              {
+                  "name": "public",
+                  "children": [
+                      {
+                          "name": "logo.png"
+                      },
+                      {
+                          "name": "data",
+                          "children": [
+                              {
+                                  "name": "riaa-us-revenue.csv"
+                              },
+                              {
+                                  "name": "volcano.json"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "logo.svg"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-delaunay",
+                  "children": [
+                      {
+                          "name": "voronoi.md"
+                      },
+                      {
+                          "name": "delaunay.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-hierarchy",
+                  "children": [
+                      {
+                          "name": "cluster.md"
+                      },
+                      {
+                          "name": "partition.md"
+                      },
+                      {
+                          "name": "pack.md"
+                      },
+                      {
+                          "name": "tree.md"
+                      },
+                      {
+                          "name": "hierarchy.md"
+                      },
+                      {
+                          "name": "stratify.md"
+                      },
+                      {
+                          "name": "treemap.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "index.md"
+              },
+              {
+                  "name": "d3-hierarchy.md"
+              },
+              {
+                  "name": "d3-fetch.md"
+              },
+              {
+                  "name": "d3-transition.md"
+              },
+              {
+                  "name": "d3-transition",
+                  "children": [
+                      {
+                          "name": "timing.md"
+                      },
+                      {
+                          "name": "modifying.md"
+                      },
+                      {
+                          "name": "control-flow.md"
+                      },
+                      {
+                          "name": "selecting.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-force",
+                  "children": [
+                      {
+                          "name": "position.md"
+                      },
+                      {
+                          "name": "collide.md"
+                      },
+                      {
+                          "name": "many-body.md"
+                      },
+                      {
+                          "name": "link.md"
+                      },
+                      {
+                          "name": "simulation.md"
+                      },
+                      {
+                          "name": "center.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-chord",
+                  "children": [
+                      {
+                          "name": "chord.md"
+                      },
+                      {
+                          "name": "ribbon.md"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-zoom.md"
+              },
+              {
+                  "name": "what-is-d3.md"
+              },
+              {
+                  "name": "d3-interpolate.md"
+              },
+              {
+                  "name": "d3-dsv.md"
+              },
+              {
+                  "name": "data",
+                  "children": [
+                      {
+                          "name": "volcano.data.js"
+                      }
+                  ]
+              },
+              {
+                  "name": "d3-axis.md"
+              },
+              {
+                  "name": "d3-timer.md"
+              },
+              {
+                  "name": "d3-time.md"
+              },
+              {
+                  "name": "d3-contour.md"
+              }
+          ]
+      },
+      {
+          "name": "README.md"
+      },
+      {
+          "name": "img",
+          "children": [
+              {
+                  "name": "pack-v4.png"
+              },
+              {
+                  "name": "pack-v3.png"
+              },
+              {
+                  "name": "stratify.png"
+              },
+              {
+                  "name": "axis-v3.png"
+              },
+              {
+                  "name": "axis-v4.png"
+              }
+          ]
+      },
+      {
+          "name": "rollup.config.js"
+      },
+      {
+          "name": "yarn.lock"
+      },
+      {
+          "name": ".gitignore"
+      },
+      {
+          "name": "package.json"
+      },
+      {
+          "name": ".github",
+          "children": [
+              {
+                  "name": "eslint.json"
+              },
+              {
+                  "name": "workflows",
+                  "children": [
+                      {
+                          "name": "test.yml"
+                      },
+                      {
+                          "name": "deploy.yml"
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "CHANGES.md"
+      },
+      {
+          "name": ".git",
+          "children": [
+              {
+                  "name": "config"
+              },
+              {
+                  "name": "objects",
+                  "children": [
+                      {
+                          "name": "pack",
+                          "children": [
+                              {
+                                  "name": "pack-57fb976e038b17ff6772b26c9723853e412121a3.idx"
+                              },
+                              {
+                                  "name": "pack-57fb976e038b17ff6772b26c9723853e412121a3.pack"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "info",
+                          "children": []
+                      }
+                  ]
+              },
+              {
+                  "name": "HEAD"
+              },
+              {
+                  "name": "info",
+                  "children": [
+                      {
+                          "name": "exclude"
+                      }
+                  ]
+              },
+              {
+                  "name": "logs",
+                  "children": [
+                      {
+                          "name": "HEAD"
+                      },
+                      {
+                          "name": "refs",
+                          "children": [
+                              {
+                                  "name": "heads",
+                                  "children": [
+                                      {
+                                          "name": "main"
+                                      }
+                                  ]
+                              },
+                              {
+                                  "name": "remotes",
+                                  "children": [
+                                      {
+                                          "name": "origin",
+                                          "children": [
+                                              {
+                                                  "name": "HEAD"
+                                              }
+                                          ]
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "name": "description"
+              },
+              {
+                  "name": "hooks",
+                  "children": [
+                      {
+                          "name": "commit-msg.sample"
+                      },
+                      {
+                          "name": "pre-rebase.sample"
+                      },
+                      {
+                          "name": "pre-commit.sample"
+                      },
+                      {
+                          "name": "applypatch-msg.sample"
+                      },
+                      {
+                          "name": "fsmonitor-watchman.sample"
+                      },
+                      {
+                          "name": "pre-receive.sample"
+                      },
+                      {
+                          "name": "prepare-commit-msg.sample"
+                      },
+                      {
+                          "name": "post-update.sample"
+                      },
+                      {
+                          "name": "pre-merge-commit.sample"
+                      },
+                      {
+                          "name": "pre-applypatch.sample"
+                      },
+                      {
+                          "name": "pre-push.sample"
+                      },
+                      {
+                          "name": "update.sample"
+                      },
+                      {
+                          "name": "push-to-checkout.sample"
+                      }
+                  ]
+              },
+              {
+                  "name": "refs",
+                  "children": [
+                      {
+                          "name": "heads",
+                          "children": [
+                              {
+                                  "name": "main"
+                              }
+                          ]
+                      },
+                      {
+                          "name": "tags",
+                          "children": []
+                      },
+                      {
+                          "name": "remotes",
+                          "children": [
+                              {
+                                  "name": "origin",
+                                  "children": [
+                                      {
+                                          "name": "HEAD"
+                                      }
+                                  ]
+                              }
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "name": "index"
+              },
+              {
+                  "name": "packed-refs"
+              },
+              {
+                  "name": "FETCH_HEAD"
+              }
+          ]
+      },
+      {
+          "name": ".eslintrc.json"
+      },
+      {
+          "name": "src",
+          "children": [
+              {
+                  "name": "index.js"
+              }
+          ]
+      }
+  ]
+}

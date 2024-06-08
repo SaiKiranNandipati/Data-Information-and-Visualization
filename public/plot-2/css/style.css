@@ -1,0 +1,121 @@
+.fund-container, .time-period-container{
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+}
+
+.fund-label {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: blue;
+}
+.fund-label-2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: orange;
+}
+
+.time-period-label {
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.time-period-buttons {
+  display: inline-block;
+}
+
+.time-period-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.time-period-button:focus {
+  outline: none;
+}
+
+.time-period-button.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.time-period-button.light {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.select-container {
+  position: relative;
+}
+
+select {
+  padding: 10px 15px;
+  font-size: 16px; 
+  border: 1px solid #aaa; 
+  border-radius: 5px;
+
+}
+
+.axis line {
+  fill: none;
+  stroke: #8693a0;
+  shape-rendering: crispEdges;
+}
+
+.axis text {
+  font-size: 13px;
+  fill: #6b6b6b;
+}
+
+.axis-title {
+  font-size: 13px;
+  fill: #888;
+}
+
+.x-axis .domain {
+  stroke: #8693a0;
+}
+
+.y-axis .domain {
+  display: none;
+}
+
+.chart-area {
+  fill: #a5b3bf;
+}
+
+.chart-line {
+  fill: none;
+  stroke: #517390;
+  stroke-width: 2px;
+  clip-path: url(#clip);
+}
+
+.chart-line-2 {
+  fill: none;
+  stroke: orange;
+  stroke-width: 2px;
+  clip-path: url(#clip);
+}
+
+
+#stock-tooltip {
+  position: absolute;
+  display: none;
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+
+

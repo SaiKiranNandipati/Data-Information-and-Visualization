@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Plot 2</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div style="display: flex;">
+      <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/">Go to Homepage</a>
+      <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-1/">Go to Plot 1</a>
+      <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-2/">Go to Plot 2</a>
+      <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-3/">Go to Plot 3</a>
+      <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-4/">Go to Plot 4</a>
+      <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-5/">Go to Plot 5</a>
+    </div>
+    <h1>Plot 2: Performance Comparision between 2 Funds</h1>
+
+    <div class="fund-container">
+        <h2 class="fund-label">Choose Fund 1:</h2>
+        <select id="myDropdown" onchange="dropdownChanged(this)">
+          <option value="snp500">S&P 500</option>
+          <option value="spy">SPDR S&P 500 ETF Trust</option>
+          <option value="qqq">Nasdaq 100 ETF</option>
+          <option value="dia">Dow Jones ETF</option>
+          <option value="iwm">iShares Russell 2000 ETF</option>
+          <option value="voo">Vanguard S&P 500 ETF</option>
+        </select>
+    </div>
+      
+    <div class="fund-container">
+        <h2 class="fund-label-2">Choose Fund 2:</h2>
+        <select id="myDropdown2" onchange="dropdownChanged(this)">
+          <option value="qqq">Nasdaq 100 ETF</option>
+          <option value="snp500">S&P 500</option>
+          <option value="spy">SPDR S&P 500 ETF Trust</option>
+          <option value="dia">Dow Jones ETF</option>
+          <option value="iwm">iShares Russell 2000 ETF</option>
+          <option value="voo">Vanguard S&P 500 ETF</option>
+        </select>
+    </div>
+    <br><br>
+      
+    <div class="time-period-container">
+        <h2 class="time-period-label">Time Period:</h2>
+        <div class="time-period-buttons">
+          <button id="myDropdown3" class="time-period-button dark" value="2y" onclick="dropdownChanged(this)">2 Years</button>
+          <button id="myDropdown3" class="time-period-button" value="1y" onclick="dropdownChanged(this)">1 Year</button>
+          <button id="myDropdown3" class="time-period-button" value="1m" onclick="dropdownChanged(this)">1 Month</button>
+        </div>
+    </div>  
+    <br>
+    
+    <svg id="chart"></svg>
+    
+    <div id="stock-tooltip">
+        <div class="stock-tooltip-content">
+          <div class="stock-tooltip-title"></div>
+          <div class="stock-tooltip-text"></div>
+          <div class="stock-tooltip-text"></div>
+          <div class="stock-tooltip-text"></div>
+        </div>
+    </div>
+    
+    <div class="source">Data source: <a href="#">Google Finance</a></div>
+    <br>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/line_chart.js"></script>
+    <script src="js/stock_plot.js"></script>
+</body>
+
+</html>

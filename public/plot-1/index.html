@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Plot 1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div style="display: flex;">
+        <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/">Go to Homepage</a>
+        <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-1/">Go to Plot 1</a>
+        <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-2/">Go to Plot 2</a>
+        <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-3/">Go to Plot 3</a>
+        <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-4/">Go to Plot 4</a>
+        <a style="display: inline-block; margin-right: 10px; padding: 10px 20px; background-color: grey; color: white; text-align: center; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;" href="/plot-5/">Go to Plot 5</a>
+    </div>
+
+    <h1>Plot 1:Regression Line Visualizer</h1>
+    <section>
+        <p>This interactive tool allows you to explore 2D regression analysis by adding and removing points on a plane.</p>
+        <p>To add a point, simply click on an empty area of the plane. The regression line will be automatically recalculated and displayed based on the new point.</p>
+        <p>If you want to remove a point, click on an existing point, and the regression line will update accordingly.</p>
+        <p>If you want to start fresh, you can click the "Reset" button to clear all points from the plane.</p>
+    </section>
+    <div id="canvas"></div>
+    <button onclick="removeAction()" id="resetButton">Reset</button>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="./js/regression.js"></script>
+  
+</body>
+
+</html>
